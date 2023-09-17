@@ -1,0 +1,15 @@
+body{
+    background:url('https://www.denofgeek.com/wp-content/uploads/2022/12/Marvel-Snap.jpg');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card{
+    width: 280px;
+    height: 300px;
+    border: 1px solid gray;
+}
+.photo{
+    border-radius: 50px;
+}
