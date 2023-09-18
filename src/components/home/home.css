@@ -5,11 +5,31 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.card{
-    width: 280px;
-    height: 300px;
-    border: 1px solid gray;
+.home-container{
+    display: flex;
+}
+.card-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .photo{
-    border-radius: 50px;
+    border-radius: 100px;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.cart{
+    width: 500px;
+    height: auto;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    
 }
